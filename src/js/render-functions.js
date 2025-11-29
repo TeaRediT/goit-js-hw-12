@@ -60,3 +60,11 @@ export const showLoader = () => {
 export const hideLoader = () => {
   refs.loaderEl.style.display = 'none';
 };
+
+export const showLoadMoreButton = () => {
+  refs.btnEl.style.display = 'block';
+};
+
+export const hideLoadMoreButton = () => {
+  refs.btnEl.style.display = 'none';
+};

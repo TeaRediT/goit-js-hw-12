@@ -62,7 +62,8 @@
   border-color: #4e75ff;
 }
 
-.form button {
+.form button,
+.js-btn {
   width: 91px;
   border: none;
   border-radius: 8px;
@@ -126,4 +127,14 @@
   line-height: 2;
   letter-spacing: 0.04em;
   color: #2e2f42;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.js-btn {
+  display: none;
+  margin: 32px auto 44px auto;
+  min-width: 125px;
 }
